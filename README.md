@@ -1,6 +1,6 @@
-# YouTube Playlist Sync
+# YouTube Playlist Sync Live Songs
 
-This script allows you to synchronize a playlist from Spotify with YouTube by extracting tracks from a Spotify playlist, searching for them on YouTube, and adding them to a specified playlist. It also handles API quota limits by updating the CSV file with the status of each song, ensuring that failed attempts can be retried later.
+This script allows you to synchronize a playlist from Spotify with YouTube by extracting tracks from a Spotify playlist, searching for them on YouTube, and adding them to a specified playlist. It also handles API quota limits by updating the CSV file with the status of each song, ensuring that failed attempts can be retried later. It's important to say, the script will search for the live version of an specific song. (You can make a fork and change it if you want).
 
 ## Features
 
