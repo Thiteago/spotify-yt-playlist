@@ -111,6 +111,7 @@ end
 playlist_id = 'PLSgutm9kgzH2h_5lstDgDIFTCXa__Ia5W'
 
 music_list.each do |music|
+  next if status[music[:title]] == 'added'
   title, result = search_and_add_to_playlist(service, playlist_id, music[:title])
   status[title] = result
 end
